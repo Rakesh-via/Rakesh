@@ -10,6 +10,13 @@ export default defineConfig({
       '/api': 'http://localhost:3001'
     }
   },
+  preview: {
+    host: '0.0.0.0',
+    allowedHosts: [".e2b.app"],
+    proxy: {
+      '/api': 'http://localhost:3001'
+    }
+  },
   build: {
     outDir: 'dist'
   }

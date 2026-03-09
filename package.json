@@ -6,6 +6,7 @@
     "dev": "concurrently \"vite\" \"node server.js\"",
     "build": "vite build",
     "preview": "vite preview",
+    "preview:prod": "NODE_ENV=production node server.js",
     "start": "node server.js"
   },
   "dependencies": {
