@@ -58,6 +58,12 @@ const RakeshHistory = () => {
           <p className="text-muted mb-0">
             Discover 10 popular books exploring India's rich historical heritage
           </p>
+          <Link
+            to="/history-books"
+            className="btn btn-primary mt-3 d-inline-block"
+          >
+            View History Books List
+          </Link>
         </div>
 
         {loading && (
